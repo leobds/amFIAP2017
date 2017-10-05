@@ -1,0 +1,3 @@
+let mensagem = 'Leonardo';
+
+console.log(mensagem);

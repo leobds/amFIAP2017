@@ -1,19 +1,20 @@
 {
   "name": "cms",
   "version": "1.0.0",
-  "description": "projeto am FIAP 2017",
+  "description": "CMS da Avaliação Multi disciplinar da FIAP",
   "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-validator": "^4.2.1",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Aluga FIAP",
-  "license": "ISC",
-  "dependencies": {
-    "app": "^0.1.0",
-    "consign": "^0.1.6",
-    "ejs": "^2.5.7",
-    "express": "^4.16.1",
-    "express-validator": "^4.2.1",
-    "mysql": "^2.14.1"
-  }
+  "author": "BMWTI",
+  "license": "ISC"
 }
